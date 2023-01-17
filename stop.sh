@@ -1,7 +1,7 @@
 #!/bin/bash
 
-case=$1
-#case="java-native-ms"
+#case=$1
+case="pocgraphql"
 
 StackName=$(jq -r ".StackName" "config.json")-$case
 

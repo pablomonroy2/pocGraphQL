@@ -109,4 +109,3 @@ Outputs:
   PrivateIPTest:
     Description: Private IP of the Test EC2 instance
     Value: !GetAtt EC2InstanceTest.PrivateIp
-    

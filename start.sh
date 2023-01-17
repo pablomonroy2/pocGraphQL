@@ -2,7 +2,7 @@
 source ./sh/functions.sh
 
 #case=$1
-case="pocGraphQL"
+case="pocgraphql"
 
 mkdir -p sh/.tmp
 
