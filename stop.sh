@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #case=$1
-case="pocgraphql"
+case="graphqlpo"
 
 StackName=$(jq -r ".StackName" "config.json")-$case
 
