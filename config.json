@@ -1,0 +1,11 @@
+{
+    "StackName": "GraphQLBench",
+    "UrlReposity": "https://github.com/pablomonroy2/pocGraphQL",
+    "VpcId": "vpc-0e4be5df9e95671aa",
+    "SubnetId": "subnet-01c7c6eb4150116c4",
+    "InstanceType": "c5.large",
+    "ImageId": "ami-0574da719dca65348",
+    "User": "ubuntu",
+    "KeyName": "pmonroy_aws",
+    "Key": "/Users/pablomonroy/projects/pmonroy_aws.pem"
+}

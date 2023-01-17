@@ -1,0 +1,15 @@
+type Query {
+    getBankAccount(id: ID!): [BankAccount]
+    getBankAccounts: [BankAccount]
+}
+
+type Mutation {
+    addBankAccount(bankAccount: BankAccountInput!): BankAccount
+    updateBankAccount(bankAccount: BankAccountInput!): BankAccount
+}
+
+type Subscription {
+  bankAccountStatus: [BankAccount]
+}
+
+

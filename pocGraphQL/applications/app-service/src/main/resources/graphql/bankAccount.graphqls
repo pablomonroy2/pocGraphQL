@@ -1,0 +1,18 @@
+type BankAccount {
+    id: ID!
+    userName: String!
+    currency: Currency!,
+    balance: Float!,
+    accountType: AccountType!
+}
+
+input BankAccountInput {
+    id: ID!
+    userName: String!
+    currency: Currency!,
+    balance: Float!,
+    accountType: AccountType!
+}
+
+
+
