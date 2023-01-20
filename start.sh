@@ -1,8 +1,9 @@
 #!/bin/bash
+set -e
 source ./sh/functions.sh
 
-#case=$1
-case="graphqlpo"
+case=$1
+#case="java-native-ms"
 
 mkdir -p sh/.tmp
 
@@ -36,7 +37,7 @@ outputs=$(aws cloudformation describe-stacks --stack-name $StackName | jq '{Outp
 
 app_ip=$(echo $outputs | jq -r '.Outputs[] | select(.OutputKey == "PublicIPApp") | .OutputValue')
 #latency_ip=$(echo $outputs | jq -r '.Outputs[] | select(.OutputKey == "PublicIPLatency") | .OutputValue')
-#db_ip=$(echo $outputs | jq -r '.Outputs[] | select(.OutputKey == "PublicIPDB") | .OutputValue')
+db_ip=$(echo $outputs | jq -r '.Outputs[] | select(.OutputKey == "PublicIPDB") | .OutputValue')
 
 
 ## Latency

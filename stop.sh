@@ -1,7 +1,8 @@
 #!/bin/bash
+set -e
 
-#case=$1
-case="graphqlpo"
+case=$1
+#case="java-native-ms"
 
 StackName=$(jq -r ".StackName" "config.json")-$case
 
