@@ -1,11 +1,11 @@
 import Config
 
 config :perf_analyzer,
-  url: "http://_IP_:8080/api/hello",
+  url: "http://_IP_:8080/graphqlpath",
   request: %{
-    method: "GET",
-    headers: [],
-    body: ""
+    method: "POST",
+    headers: [{"Content-Type", "application/json"}],
+    body: "{\"query\":\"{ getBankAccounts{ userName currency id balance accountType }}\"}"
   },
   execution: %{
     steps: 20,
