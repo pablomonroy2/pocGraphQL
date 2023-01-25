@@ -1,10 +1,11 @@
 #!/bin/bash
 
-cases=("graphqlpoc")
+rm -rf .tmp
+
+cases=("graphqlpoc api-rest-poc")
 
 for case in "${cases[@]}"; do
-  echo "Starting $case"
-  #rm sh/.tmp/*
+  echo "\n\n\nStarting $case"
   ./start.sh "$case"
   ./performance-analyzer.sh "$case"
   ./stop.sh "$case"

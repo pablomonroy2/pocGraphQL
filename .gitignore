@@ -335,3 +335,5 @@ gradle-app.setting
 *.hprof
 
 .sh/tmp
+
+.tmp
