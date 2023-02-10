@@ -1,0 +1,23 @@
+type Query {
+    getBankAccounts: [BankAccount]
+}
+
+type BankAccount {
+    id: ID!
+    userName: String!
+    currency: Currency!,
+    balance: Float!,
+    accountType: AccountType!
+}
+
+enum Currency {
+    COP
+    USD
+}
+
+enum AccountType {
+    AHORROS
+    CORRIENTE
+}
+
+

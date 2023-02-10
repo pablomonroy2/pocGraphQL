@@ -20,7 +20,7 @@ graphql:
     endpoint: "/graphqlpath"
     enabled: true
   tools:
-    introspection-enabled: false
+    introspection-enabled: true
 management:
   endpoints:
     web:

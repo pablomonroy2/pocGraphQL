@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.24/13a394eed5c4f9efb2a6d956e2086f1d81e857d9/lombok-1.18.24.jar" />
+        </processorPath>
+        <module name="api-rest-poc.usecase.main" />
+        <module name="api-rest-poc.app-service.test" />
+        <module name="api-rest-poc.model.main" />
+        <module name="api-rest-poc.api-rest.test" />
+        <module name="api-rest-poc.provider.main" />
+        <module name="api-rest-poc.api-rest.main" />
+        <module name="api-rest-poc.app-service.main" />
+        <module name="api-rest-poc.model.test" />
+        <module name="api-rest-poc.provider.test" />
+        <module name="api-rest-poc.usecase.test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11" />
+  </component>
+</project>
