@@ -1,5 +1,6 @@
-package co.com.bancolombia.demo;
+package co.com.bancolombia.demo.model;
 
+import co.com.bancolombia.demo.model.AccountType;
 import lombok.*;
 
 import java.util.UUID;

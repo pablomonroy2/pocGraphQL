@@ -1,4 +1,4 @@
-package co.com.bancolombia.demo;
+package co.com.bancolombia.demo.model;
 
 public enum Currency {
     COP,
