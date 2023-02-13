@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'co.com.bancolombia'
-sourceCompatibility = '17'
+sourceCompatibility = '11'
 
 repositories {
 	mavenCentral()
